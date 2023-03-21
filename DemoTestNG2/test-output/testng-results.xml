@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T13:13:03 PDT" name="Suite" finished-at="2023-03-21T13:13:03 PDT" duration-ms="50">
+    <groups>
+      <group name="smoke">
+        <method signature="Group_Demo.tc1()[pri:0, instance:demopackage.Group_Demo@1ddf84b8]" name="tc1" class="demopackage.Group_Demo"/>
+        <method signature="Group_Demo.tc3()[pri:0, instance:demopackage.Group_Demo@1ddf84b8]" name="tc3" class="demopackage.Group_Demo"/>
+        <method signature="Group_Demo1.tc6()[pri:0, instance:demopackage.Group_Demo1@31c88ec8]" name="tc6" class="demopackage.Group_Demo1"/>
+        <method signature="Group_Demo1.tc8()[pri:0, instance:demopackage.Group_Demo1@31c88ec8]" name="tc8" class="demopackage.Group_Demo1"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Group_Demo.tc3()[pri:0, instance:demopackage.Group_Demo@1ddf84b8]" name="tc3" class="demopackage.Group_Demo"/>
+        <method signature="Group_Demo1.tc8()[pri:0, instance:demopackage.Group_Demo1@31c88ec8]" name="tc8" class="demopackage.Group_Demo1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-03-21T13:13:03 PDT" name="smoke" finished-at="2023-03-21T13:13:03 PDT" duration-ms="50">
+      <class name="demopackage.Group_Demo1">
+        <test-method signature="tc6()[pri:0, instance:demopackage.Group_Demo1@31c88ec8]" started-at="2023-03-21T13:13:03 PDT" name="tc6" finished-at="2023-03-21T13:13:03 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method signature="tc8()[pri:0, instance:demopackage.Group_Demo1@31c88ec8]" started-at="2023-03-21T13:13:03 PDT" name="tc8" finished-at="2023-03-21T13:13:03 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8 -->
+      </class> <!-- demopackage.Group_Demo1 -->
+      <class name="demopackage.Group_Demo">
+        <test-method signature="tc1()[pri:0, instance:demopackage.Group_Demo@1ddf84b8]" started-at="2023-03-21T13:13:03 PDT" name="tc1" finished-at="2023-03-21T13:13:03 PDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc3()[pri:0, instance:demopackage.Group_Demo@1ddf84b8]" started-at="2023-03-21T13:13:03 PDT" name="tc3" finished-at="2023-03-21T13:13:03 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- demopackage.Group_Demo -->
+    </test> <!-- smoke -->
+  </suite> <!-- Suite -->
+</testng-results>
