@@ -7,6 +7,7 @@ public class Group_Demo {
 	@Test(groups= {"smoke"})
 	public void tc1() {
 		System.out.println("This is tc1 logic");
+		System.out.println("first change done");
 	}
 	
 	@Test(groups= {"sanity"})
